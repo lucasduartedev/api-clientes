@@ -8,7 +8,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import jakarta.validation.Valid;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -52,7 +51,8 @@ public class Cliente {
         }
     }
 
-    public void exluir() {
+    // Define cliente como inativo
+    public void desativarCliente() {
         this.ativo = false;
     }
 
