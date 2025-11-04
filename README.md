@@ -10,6 +10,12 @@ Nesse repositório foi criado uma API Rest com Spring Boot assim como no curso, 
 - Validações de dados com Beam Validation;
 - Paginação dos dados da API.
 
+## Tecnologias
+- Linguagem Java 17;
+- Spring Boot
+- Banco de dados MySQL;
+- Docker: para simular a infraestrutura de banco de dados;
+
 ## Sobre o curso
 
 [Link da página do curso](https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java)
