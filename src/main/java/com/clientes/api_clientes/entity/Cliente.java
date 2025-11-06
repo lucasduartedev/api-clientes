@@ -26,7 +26,7 @@ public class Cliente {
     private Long id;
     private String nome;
     private String cpf;
-    private Boolean ativo;
+    private Boolean ativo = true;
 
     public Cliente() {
     }
@@ -39,7 +39,7 @@ public class Cliente {
     public Cliente(DadosCadastroCliente dados) {
         this.nome = dados.nome();
         this.cpf = dados.cpf();
-        this.ativo = true;
+        // this.ativo = true;
     }
 
     public void atualizarInformacoes(DadosAtualizacaoCliente dados) {
@@ -51,7 +51,6 @@ public class Cliente {
         }
     }
 
-    // Define cliente como inativo
     public void desativarCliente() {
         this.ativo = false;
     }
