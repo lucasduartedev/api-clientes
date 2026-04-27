@@ -16,7 +16,7 @@ Nesse repositório foi criado uma API Rest com Spring Boot assim como no curso, 
 - Banco de dados MySQL;
 - Docker: para simular a infraestrutura de banco de dados;
 
-## Sobre o curso
+## Sobre o curso (base do projeto)
 
 [Link da página do curso](https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java)
 
